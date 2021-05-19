@@ -65,11 +65,11 @@
 
     <distributionManagement>
         <repository>
-            <id>packagecloud.release</id>
+            <id>nexus-release</id>
             <url>http://localhost:8081/repository/nexus-release/</url>
         </repository>
         <snapshotRepository>
-            <id>packagecloud.snapshot</id>
+            <id>nexus-snapshot</id>
             <url>http://localhost:8081/repository/nexus-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
