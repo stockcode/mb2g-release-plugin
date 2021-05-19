@@ -4,7 +4,7 @@
 
     <groupId>guru.springframework</groupId>
     <artifactId>mb2g-release-plugin</artifactId>
-    <version>1.19-SNAPSHOT</version>
+    <version>1.18-SNAPSHOT</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -65,11 +65,11 @@
 
     <distributionManagement>
         <repository>
-            <id>nexus-release</id>
+            <id>packagecloud.release</id>
             <url>http://localhost:8081/repository/nexus-release/</url>
         </repository>
         <snapshotRepository>
-            <id>nexus-snapshot</id>
+            <id>packagecloud.snapshot</id>
             <url>http://localhost:8081/repository/nexus-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
